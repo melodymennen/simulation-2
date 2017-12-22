@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../images/header_logo.png'
 
-
+// Simulation-2 38D
 const Header = () => {
     return (
       <header>

@@ -54,6 +54,10 @@ Dashboard {
   background: linear-gradient(to bottom, #e2f3ea, #ffffff);
 }
 
+.above-line {
+  margin: auto;
+}
+
 button {
   border: none;
   font-size: 14px;
@@ -82,5 +86,22 @@ button {
 }
 
 hr {
-  margin: 15px 0;
+  margin: 15px 5px;
+}
+
+/* Listing */
+Listing {
+  height: 150px;
+}
+
+/* Auth */
+Auth {
+  background-color: #AFD4C0;
+}
+
+.main {
+  background-color: white;
+  margin: auto;
+  width: 800px;
+  height: 100vh;
 }
