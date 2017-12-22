@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'; 
 import logo from '../images/header_logo.png'
 
 // Simulation-2 38D
@@ -11,6 +12,7 @@ const Header = () => {
           <strong>Houser</strong> Dashboard
           </div>
           <div className="logout">
+            {/* <Link to="/">Logout</Link> */}
             Logout
           </div>
         </div>

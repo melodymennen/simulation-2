@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../images/auth_logo.png';
-import './index.css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -9,12 +9,16 @@ class App extends Component {
     return (
       <div>
           <div className="main">
-              <img src={logo}/>>
-              Houser
-              Username<input/>
-              Password<input/>
-              <button className="light-green">Login</button>
-              <button className="dark-green">Register</button>
+              <img src={logo}/> <br />
+              Username
+              <input className="auth-input" /> <br />
+              Password
+              <input className="auth-input" /> <br />
+              <div>
+                  {/* Simulation-2 42E */}
+                  <Link to="/dashboard"><button className="light-green">Login</button></Link>
+                  <Link to="/dashboard"><button className="dark-green">Register</button></Link>  
+              </div>
           </div>
       </div>
     );

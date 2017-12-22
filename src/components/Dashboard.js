@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import x from '../images/delete_icon.png';
 import Listing from '../components/Listing';
+import Header from './Header';
 
 
 
@@ -9,6 +10,8 @@ class Dashboard extends Component {
   render() {
     return (
       <div>
+          {/* Simulation-2 36H */}
+          <Header />
           <section className="main-content">
             <div className="above-line">
                 <button className="new-prop light-green">Add new property</button> <br />

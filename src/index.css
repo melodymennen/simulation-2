@@ -73,6 +73,7 @@ button {
   color: white;
 }
 
+/* Simulation-2 23D */
 .new-prop {
   font-weight: 700;
   font-size: 16px;
@@ -99,9 +100,23 @@ Auth {
   background-color: #AFD4C0;
 }
 
+/* Simulation-2 27C, 27D, 27E, 27F, 27G */
 .main {
   background-color: white;
   margin: auto;
   width: 800px;
   height: 100vh;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
 }
+
+/* Simulation-2 24D */
+.auth-input {
+  width: 300px;
+  font-size: 14px;
+  border: 1px solid #519872 ;
+}
+
