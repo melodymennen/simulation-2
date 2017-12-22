@@ -1,23 +1,34 @@
 const initialState = {
-   
+    username: '',
+    password: '' 
 }
 
-const ACTION = 'ACTION';
+const UPDATE_USERNAME = 'UPDATE_USERNAME';
+const UPDATE_PASSWORD = 'UPDATE_PASSWORD';
 
 
 function reducer(state = initialState, action){
     switch (action.type) {
-        case ACTION:
-            return {...state, propertyOnState: action.payload};        
+        case UPDATE_USERNAME:
+            return {...state, username: action.payload};        
+        case UPDATE_PASSWORD:
+            return {...state, password: action.payload};        
         default:
             return state;
     }
 }
 
-export function updatePropertyOnState (propertyOnState){
+export function updateUsername (username){
     return {
-        type: ACTION,
-        payload: propertyOnState
+        type: UPDATE_USERNAME,
+        payload: username
+    }
+}
+
+export function updatePassword (password){
+    return {
+        type: UPDATE_PASSWORD,
+        payload: password
     }
 }
 

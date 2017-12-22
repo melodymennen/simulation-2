@@ -12,9 +12,10 @@ class Dashboard extends Component {
       <div>
           {/* Simulation-2 36H */}
           <Header />
+          {/* Simulation-2 54D */}
           <section className="main-content">
             <div className="above-line">
-                <button className="new-prop light-green">Add new property</button> <br />
+                <button className="new-prop light-green">Add new property</button> <br /> {/* Simulation-2 54D */}
                 List properties with "desired rent" greater than: $ <input className="price-input" placeholder="0" />
                 <button className=" filter light-green">Filter</button>
                 <button className="reset dark-green">Reset</button>
